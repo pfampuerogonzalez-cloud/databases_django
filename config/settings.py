@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-sa)0a1+o2vyeithm-7op8#gdo57oj51qnk@^b6d^&u#v4$_$yu"
+SECRET_KEY = "django-insecure-7t2j1b(wb_k#4y$oe-2@)l-*2hjhr=x&(9740dge&0rd50eq2b"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "productos",
+    "libreria",
 ]
 
 MIDDLEWARE = [
@@ -76,11 +76,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "django_db",
-        "USER": "django_user",
-        "PASSWORD": "django_password",
+        "NAME": "libreria",
+        "USER": "tu_usuario",
+        "PASSWORD": "tu_contraseña",
         "HOST": "localhost",
-        "PORT": "5432",
+        "PORT": "5432"
     }
 }
 
